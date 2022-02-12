@@ -1,0 +1,263 @@
+body {
+    font-family: Kanit;
+    font-size: 20px;
+    margin-left: 100px;
+    background-color: rgb(29, 22, 22);
+    animation: fadeInAnimation ease 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+}
+
+#logo {
+    font-family: "Comic Sans MS";
+    color: pink;
+    text-shadow: 2px 2px 2px turquoise;
+}
+
+body .WelcomeSpeech {
+    color: goldenrod;
+    font-family: "Copperplate";
+    margin-left: 230px;
+    padding: 100px;
+    text-align: justify;
+    margin: 100px;
+}
+
+body .WelcomeSpeech2 {
+    color: goldenrod;
+    font-family: "Copperplate";
+    margin-left: 230px;
+    padding: 0px;
+    text-align: justify;
+    margin: -130px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 2px blue;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 0;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+ul#menulist li a:hover{
+    color: lightgreen;
+    border-bottom: 3px solid lightgreen;
+}
+
+.Tentang{
+    font-family: "Verdana";
+    font-size: 45px;
+    color: wheat;
+}
+
+.Text{
+    font-family: Cambria;
+    font-size: 20px;
+    color: lightseagreen;
+    font-weight: normal;
+}
+
+.gambar2{
+    float: right;
+    margin: 20px;
+    height: auto;
+    display: block;
+    padding: 0px;
+    margin-left: 70px;
+}
+
+table td, tr {
+    font-size: 20px;
+    color: lightseagreen;
+}
+
+.NickIG {
+    padding: -100px;
+    margin-top: -40px;
+    color: pink;
+    margin-left: 200px;
+}
+
+.Text2 {
+    margin-top: 300px;
+    color: wheat;
+}
+
+table .border{
+    border: 1px;
+}
+
+.form {
+    color: lightpink;
+    font-size: 20px;
+    font-family: perpetua;
+}
+
+td .border, tr .border {
+    color: goldenrod;
+}
+
+tr .border2 {
+    color: white;
+}
+
+button{
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 1px  goldenrod;
+    border-radius: 1000px;
+    border-width: 3px;
+    border-color: white;
+    background-color: rgb(29, 22, 22);
+    width: 150px;
+    height: 40px;
+}
+
+input[type=text]{
+    background-color: whitesmoke;
+
+}
+
+.gambar3{
+    float: left;
+    margin: 0px;
+    height: auto;
+    display: block;
+    padding: 50px;
+    margin: -20px;
+}
+
+.gambar4{
+    float: right;
+    margin: -0px;
+    height: auto;
+    display: block;
+    padding: 50px;
+    margin: -20px;
+}
+
+.form2 {
+    color: goldenrod;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+.form3 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+body .Skill{
+    color: lightpink;
+}
+
+body .Skill1{
+    color: lightpink;
+}
+
+.flex{
+    display: flex;
+}
+
+.Service{
+    color: lightcyan;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    margin-left: -30px;
+}
+
+.Skill2{
+    color: aquamarine;
+    text-shadow: gold;
+    font-family: "comic sans ms";
+    margin-right: 150px;
+    text-align: left;
+}
+
+.Skill3{
+    color: aquamarine;
+    text-shadow: gold;
+    font-family: "comic sans ms";
+    margin-right: 1000px;
+}
+
+.skill3{
+    color: brown;
+}
+
+.coding {
+    width: 30%;
+    float: right;
+    border-radius: 100%;
+}
+
+.coding2 {
+    width: 30%;
+     border-radius: 100%;
+}
+
+.coding3 {
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.coding4 {
+    width: 30%;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+.img{
+    direction: ltr;
+}
+
+.vid {
+    width: 100%;
+    border-radius: 100%;
+}
